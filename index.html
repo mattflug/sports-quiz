@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tip Calculator</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-
-<body>
-  <div class="container">
-    <h1>Tip Calculator</h1>
-    <h3>Enter the total price of your meal below</h3>
-    <form id="form">
-      <input type="text" id="total" placeholder="total price of meal" />
-      <input type="text" id="tip-percentage" placeholder="tip percentage" />
-      <button id="submit">Calculate Tip</button>
-    </form>
-    <div class="tip-area">
-      <h2>Tip amount: <span id="tip-amount"></span></h2>
-      <h2>Total: <span id="new-total"></span></h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sports Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="time-container">Time Left:<span id="timer">0</span></div>
+    <div class="score-container">Score:<span id="score">0</span></div>
+    <div class="container">
+      <h1>Sports Quiz</h1>
+    <div id="question-container" class="hide">
+      <div id="question">question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer1</button>
+        <button class="btn">Answer2</button>
+        <button class="btn">Answer3</button>
+        <button class="btn">Answer4</button>
+      </div>
     </div>
-  </div>
-
-  <script src="./assets/js/script.js"></script>
-</body>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
