@@ -1,4 +1,5 @@
-# sports-quiz
+Sports Quiz
 
-10 question quiz about sports
-This is a 10 question sports trivia game. The game has a a 60 second timer. You lose 2 seconds after each incorrect answer.
+This is a 60 second trivia quiz about sports. You lose 1 second for every incorrect answer. At the end of the game your prompted for your name and results of the quiz.
+
+![alt text](./Assets/sportsquizpic.png)
