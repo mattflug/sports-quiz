@@ -4,4 +4,4 @@ This is a 60 second trivia quiz about sports. You lose 1 second for every incorr
 
 The app is available here: https://mattflug.github.io/sports-quiz/
 
-![alt text](./Assets/sportsquizpic.png)
+![alt text](/assets/sportsquizpic.png)
