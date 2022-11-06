@@ -66,6 +66,7 @@ function resetState() {
 }
 // if answer is correct, timer stay the same, if answer is wrong, go down
 // wrong take off time. make final score = time left
+// will start to update wrong answer timne punishment
 function selectAnswer(e) {
   const selectedButton = e.target;
   const correct = selectedButton.dataset.correct;
