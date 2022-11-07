@@ -11,6 +11,7 @@ let score;
 var timerInt;
 let shuffledQuestions;
 let currentQuestionIndex;
+let winCounter = 0;
 startButton.addEventListener("click", startGame);
 
 // start game function
@@ -26,6 +27,12 @@ function startGame() {
   score = 0;
   scoreElement.textContent = score;
   timeLeft = 60;
+}
+
+function winGame() {
+  questionContainerElement.textContent = "YOU WON!!!🏆 ";
+  winCounter++;
+  setWins();
 }
 
 function time() {
@@ -89,6 +96,11 @@ function selectAnswer(e) {
     let nameScore = prompt("Please enter your name and score.");
     localStorage.setItem("Name & Score", nameScore);
   }
+}
+
+function setWins() {
+  win.textContent = winCounter;
+  localStorage.setItem("winCount", winCounter);
 }
 
 function setStatusClass(element, correct) {
